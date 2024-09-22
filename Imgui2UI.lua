@@ -1115,8 +1115,7 @@ end
 
 local RunService = game:GetService("RunService")
 local UserInputService = game:GetService("UserInputService")
-local CoreGui = game:GetService("CoreGui")
-local ScreenGui = CoreGui:FindFirstChild("imgui2")
+local ScreenGui = gethui():FindFirstChild("imgui2")
 local Presets = ScreenGui:FindFirstChild("Presets")
 local ScreenGuiCache = ScreenGui:FindFirstChild("Cache")
 
